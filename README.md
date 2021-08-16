@@ -1,1 +1,9 @@
 # Battleship
+
+For the final project, I am writing a battleship program in C++ in which the user will play against the computer. The user will be prompted to enter his or her ships on the board, and the computer will randomly place its ships on the board. Each player will have five ships as follows: aircraft carrier-size 5, battleship-size 4, cruiser-size 3, submarine-size 3, and destroyer-size 2.  
+
+The ships will be represented on the board using the following letters: A-aircraft carrier, B-battleship, C-cruiser, S-submarine, and D-destroyer. The ships will only be placed horizontally and/or vertically on the board, not diagonally. 
+
+The user will be prompted to enter a coordinate and direction of the ship. The y-axis will be represented by numbers, and the x-axis represented by letters. Once the user enters one coordinate, he or she will be asked if he or she would like to place the next coordinates up-U, down-D, left-L, or right-R until all ships are successfully placed. 
+
+Once the game begins, the user will be asked to enter the coordinates on the computer’s board to attempt to sink the computer’s fleet. An updated game board will be displayed after each fire to show where the user hit-displays letter of ship user hit (For example, if a user hit a part of an aircraft carrier, an ‘A’ will be displayed.) or if the user missed-displays a ‘~’.  Then the user will be prompted to press any key so that the computer can fire at the user’s fleet. Then the user’s board will be displayed showing ‘X’ for misses and ‘H’ for hits. This will continue until all the ships are sunk on one of the boards. 
